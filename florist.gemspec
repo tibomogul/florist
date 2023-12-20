@@ -28,7 +28,8 @@ a worklist implementation for the flor workflow engine
   ]
 
   flor_version = s.version.to_s.split('.').take(2).join('.')
-  s.add_runtime_dependency 'flor', "~> #{flor_version}"
+  # s.add_runtime_dependency 'flor', "~> #{flor_version}"
+  s.add_runtime_dependency 'flor'
 
   s.add_development_dependency 'rspec', '~> 3'
 
